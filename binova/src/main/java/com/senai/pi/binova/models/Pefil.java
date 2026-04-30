@@ -26,4 +26,56 @@ public class Pefil {
 
     @Column(name="cidade")
     private String cidade;
+
+    public Pefil() {
+    }
+
+    public Pefil(Integer id, String nome, int senha, String empresa, String cidade) {
+        this.id = id;
+        this.nome = nome;
+        this.senha = senha;
+        this.empresa = empresa;
+        this.cidade = cidade;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getSenha() {
+        return senha;
+    }
+
+    public void setSenha(int senha) {
+        this.senha = senha;
+    }
+
+    public String getEmpresa() {
+        return empresa;
+    }
+
+    public void setEmpresa(String empresa) {
+        this.empresa = empresa;
+    }
+
+    public String getCidade() {
+        return cidade;
+    }
+
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+    
 }

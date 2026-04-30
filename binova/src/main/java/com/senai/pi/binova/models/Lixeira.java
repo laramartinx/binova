@@ -24,6 +24,48 @@ public class Lixeira {
     @Column(name="descrição")
     private String descricao;
 
+    public Lixeira() {
+    }
+
+    public Lixeira(Integer id, String localizacao, int capacidade, String descricao) {
+        this.id = id;
+        this.localizacao = localizacao;
+        this.capacidade = capacidade;
+        this.descricao = descricao;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getLocalizacao() {
+        return localizacao;
+    }
+
+    public void setLocalizacao(String localizacao) {
+        this.localizacao = localizacao;
+    }
+
+    public int getCapacidade() {
+        return capacidade;
+    }
+
+    public void setCapacidade(int capacidade) {
+        this.capacidade = capacidade;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
 
 
 

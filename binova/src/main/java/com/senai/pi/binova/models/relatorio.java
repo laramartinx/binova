@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table (name = "relatório")
-public class relatorio {
+public class Relatorio {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
@@ -25,4 +25,47 @@ public class relatorio {
 
     @Column(name="localização")
     private String localizacao;
+
+    public Relatorio() {
+    }
+
+    public Relatorio(Integer id, LocalDate data_regisro, int capacidade, String localizacao) {
+        this.id = id;
+        this.data_regisro = data_regisro;
+        this.capacidade = capacidade;
+        this.localizacao = localizacao;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public LocalDate getData_regisro() {
+        return data_regisro;
+    }
+
+    public void setData_regisro(LocalDate data_regisro) {
+        this.data_regisro = data_regisro;
+    }
+
+    public int getCapacidade() {
+        return capacidade;
+    }
+
+    public void setCapacidade(int capacidade) {
+        this.capacidade = capacidade;
+    }
+
+    public String getLocalizacao() {
+        return localizacao;
+    }
+
+    public void setLocalizacao(String localizacao) {
+        this.localizacao = localizacao;
+    }
+
 }
