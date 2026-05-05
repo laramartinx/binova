@@ -15,5 +15,8 @@ public class Historico {
     @Column(name="id")
     private Integer id;
 
+    
+
+
 
 }
