@@ -8,5 +8,5 @@ import com.senai.pi.binova.models.Lixeira;
 
 @Repository
 public interface LixeiraRepository extends JpaRepository<Lixeira, Integer> {
-
+    
 }
