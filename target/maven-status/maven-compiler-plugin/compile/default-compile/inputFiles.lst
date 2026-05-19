@@ -1,4 +1,11 @@
 c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\Application.java
+c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\config\Swagger.java
+c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\controllers\AlertaController.java
+c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\controllers\EnderecoController.java
+c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\controllers\HistoricoController.java
+c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\controllers\LixeiraController.java
+c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\controllers\PerfilController.java
+c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\controllers\RelatorioController.java
 c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\models\Alerta.java
 c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\models\Endereco.java
 c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\models\Historico.java
@@ -6,11 +13,13 @@ c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\mode
 c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\models\Perfil.java
 c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\models\Relatorio.java
 c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\repositories\AlertaRepository.java
+c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\repositories\EnderecoRepository.java
 c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\repositories\HistoricoRepository.java
 c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\repositories\LixeiraRepository.java
 c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\repositories\PerfilRepository.java
 c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\repositories\RelatorioRepository.java
 c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\services\AlertaService.java
+c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\services\EnderecoService.java
 c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\services\HistoricoService.java
 c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\services\LixeiraService.java
 c:\Users\PET0132514\Downloads\lara\binova\src\main\java\com\senai\pi\binova\services\PerfilService.java
